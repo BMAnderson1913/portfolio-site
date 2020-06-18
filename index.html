@@ -1,64 +1,106 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brittany Anderson</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="style.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/518bbf9db7.js" crossorigin="anonymous"></script>
+
+
+  <!-- Update these with your own fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-          <span class="sr-only"> Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
+  <!-- Introduction -->
+  <section class="intro" id="#home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Brittany Anderson</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Web Developer - Worcester County, MA</p>
+    <img src="img/me1.png" alt="" class="intro__img">
+  </section>
+
+
+  <!-- My Projects -->
+  <section class="my-projects" id="#my-projects">
+    <h2 class="section__title section__title--projects">My projects</h2>
+    <p class="section__subtitle section__subtitle--projects">A selection of my range of projects</p>
+
+    <div class="project">
+      <a href="https://github.com/BMAnderson1913/great-novels-ui">
+        <p>Great Novels UI Project</p>
+      </a>
+      <p>Added a REACT front end to a REST API of great novels.</p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/BMAnderson1913/disney-villains-api">
+        <p>Disney Villains REST API Project</p>
+      </a>
+      <p>Implemented an Express driven REST API that allows users to retrieve data on the best Disney Villains.
+      </p>
+    </div>
+
+
+    <div class="project">
+      <a href="https://github.com/BMAnderson1913/order-book">
+        <p>Bitcoin Order Book Project</p>
+      </a>
+      <p>Create an order book for cryptocurrency that will properly reconcile incoming orders based on the
+        existing book of orders.</p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/BMAnderson1913/schittscreek-api">
+        <p>API Project Developed Into a REACT Project</p>
+      </a>
+      <p>An API of podcasts developed into a REACT UI.</p>
+    </div>
+  </section>
+
+
+  <!-- about me -->
+  <section class="about-me" id="#about">
+    <h2 class="section__title section__title--about">About Me</h2>
+    <p class="section__subtitle section__subtitle--about"></p>
+
+    <div class="about-me__body">
+      <p>I live near Worcester, MA with my husband, corgi and 2 cats. I like baking, watching too much tv(especially in
+        these times of quarantine) and of course developing my Web Development skills. </p>
+    </div>
+
+    <img src="img/me2.png" alt="" class="about-me__img">
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- replace with your own email address -->
+    <a href="mailto:brogers1913@gmail.com" class="footer__link">brogers1913@gmail.com</a>
+    <ul class="social-list">
+      <div class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/brittanyanderson1988/">
+          <i class="fab fa-linkedin"></i>
         </a>
       </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse-main">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
+      <div class="social-list__item">
+        <a class="social-list__link" href="https://github.com/BMAnderson1913">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-    </div>
-  </nav>
-
-  <div id="home">
-    <div class="landing-text">
-      <h1>Brittany Anderson</h1>
-      <h3>Web Developer</h3>
-    </div>
-  </div>
-
-  <footer class="container-fluid text-center">
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>Contact</h3>
-        <br>
-        <h4>Address and Contact Info Here.</h4>
-      </div>
-      <div class="col-sm-4">
-        <h3>Connect</h3>
-        <a href="https://www.linkedin.com/in/brittanyanderson1988/" class="fa fa-linkedin"></a>
-        <a href="https://github.com/BMAnderson1913/" class="fa fa-github"></a>
-      </div>
-    </div>
-    </div>
+    </ul>
   </footer>
 
+
+  <script src="/index.js"></script>
 
 </body>
 

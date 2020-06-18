@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "script.js",
+  "scripts": {
+       "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMAnderson1913/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMAnderson1913/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/BMAnderson1913/portfolio-site#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "webkit": "0.0.0"
+  }
+}
